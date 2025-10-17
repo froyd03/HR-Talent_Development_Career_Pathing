@@ -1,0 +1,103 @@
+
+
+.next-role{
+    & > .main-container-progressBar{
+        margin: 0 0 0 1.2em;
+
+        & > .containerBar > .progressBar{
+            height: 10px;
+        }
+    }
+}
+
+.job-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: .5em 0 0 1.2em;
+    gap: .5rem;
+    max-height: 70px;
+    overflow-y: auto;
+
+     & > label{
+        font-weight: 600;
+    }
+
+    & > ul{
+        display: flex;
+        margin: 0;
+        flex-wrap: wrap;
+        margin: 1.2em 0 0 1.2em;
+        gap: 0 4rem;
+        padding: 0;
+    }
+}
+
+.list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.roles-actions{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    width: 90%;
+    margin-bottom: 1rem;
+}
+
+.role-main-container{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    width: 90%;
+    padding: 18px 0;
+    border-radius: var(--borderRadius);
+    box-shadow: var(--boxShadow);
+}
+
+.role-content{
+    width: 85%;
+    padding: 12px 20px;
+    position: relative;
+    background-color: #00000012;
+    border-radius: 8px;
+    & > p{
+        margin: 1.5rem 0 0 1.5rem;
+    }
+}
+
+.skills-role{
+   max-width: 25%;
+}
+
+.competency-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 8rem;
+    width: 100%;
+    margin-top: 1.5rem;
+}
+
+.main-competency{
+    display: flex;
+}
+
+.dropBtn{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    cursor: pointer;
+}
+
+.selectBtn{
+    align-self: flex-end;
+    padding: 6px 18px;
+}
+
+.department-name{
+    color: var(--labelColor);
+}

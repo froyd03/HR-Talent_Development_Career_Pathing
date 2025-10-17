@@ -1,0 +1,122 @@
+.row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;    
+}
+
+.row-count{
+    
+    padding: 6px 14px;
+    border-radius: 22px;
+
+    & > label{
+        font-weight: 600;
+        font-size: 16px;
+        color: white;
+    }
+}
+
+.row-header{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+
+.course-actions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    color: var(--secondaryTextColor);
+}
+
+.action-footer{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.courseCard-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+.cards-container{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: flex-start;
+    overflow-y: auto;
+    width: 100%;
+    max-width: 80%;
+}
+
+.main-box{
+    padding: 14px;
+    height: 220px;
+    border-radius: var(--borderRadius);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sub-box{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    max-width: 230px;
+    min-width: 200px;
+    border-radius: var(--borderRadius);
+}
+
+.header-course{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: #FFFF;
+
+    & > h4{
+        color: #FFFF;
+    }
+}
+
+.footer-box{
+    display: flex;
+    flex-direction: column;
+
+    & > p{
+        color: #FFFFFF; 
+    }
+
+     & > .main-container-progressBar{
+        & > .containerBar > .progressBar{
+            height: 12px;
+        }
+    }
+}
+
+.btnStatus{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 14px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.btnStatus:hover{
+    transform: scale(1.05);
+}
+
+.roleCards-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+}

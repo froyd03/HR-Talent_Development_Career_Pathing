@@ -1,0 +1,116 @@
+.main-container{
+    width: 92%;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+.content1{
+    background-color: #FFFF;
+    padding: 1.2rem;
+    width: 60%;
+    max-height: 450px;
+    display: flex;
+    overflow-y: auto;
+    flex-direction: column;
+    border-radius: var(--borderRadius);
+    box-shadow: var(--boxShadow);
+}
+
+.content2{
+    background-color: #FFFF;
+    padding: 1.2rem;
+    height: max-content;
+    width: 30%;
+    border-radius: var(--borderRadius);
+    box-shadow: var(--boxShadow);
+}
+
+.content-cover{
+    width: 94%;
+    padding: 1.2rem 1.5rem;
+    border-radius: var(--borderRadius);
+    background-color: #FFFF;
+    box-shadow: var(--boxShadow);
+}
+
+.skillbadges{
+    width: 70%;
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 18px;
+    gap: 1.5rem;
+}
+
+.learning-card{  
+    background-color: #CCEBF6;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin: 20px 0px;
+    border-radius: var(--borderRadius);
+}
+
+.card-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: .5rem 1rem;
+    gap: 2.5rem;
+    height: inherit;
+    width: 85%;
+    border-radius: var(--borderRadius);
+    background-color: #3BB2E1;
+}
+
+.actionBtn{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.card-count{
+    background-color: #FFFF;
+    padding: 10px;
+    width: 35px;
+    color: var(--mainButtonColor);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.card-description{
+    
+    & > h5, p{
+        color: #FFFF;
+    }
+}
+
+.certificate-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+
+.certificate-content{
+    display: flex;
+    justify-content: center;
+}
+
+.dot-container{
+    display: flex;
+    flex-direction: row;
+    width: 98%;
+    margin-top: 1em;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.dot-indicator{
+    width: 8px;
+    height: 8px;
+    border-radius: 10px;
+}
